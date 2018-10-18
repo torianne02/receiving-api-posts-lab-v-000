@@ -14,6 +14,13 @@
   <%= f.submit "submit" %>
 <% end %>
 
+<div id="productResult">
+  <h3 id="productName"></h3>
+  <p id="productDescription"></p>
+  <p id="productPrice"></p>
+  <p id="productInventory"></p>
+</div>
+
 <script type="text/javascript" charset="utf-8">
   $(function() {
     $('form').submit(function(event) {
